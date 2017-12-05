@@ -1,0 +1,88 @@
+{
+  "product": {
+    "windows 7 home 64": {
+      "name": "Windows 7",
+      "edition": "Home Premium",
+      "bits": 64,
+      "url": "http://repo.furcode.co/Windows7/Home-RTM/GRMCHPXFRER_EN_DVD.iso",
+      "hash": "336779ea6b65f63e11a609b4d021439c47ab315b"
+    },
+    "windows 7 home 32": {
+      "name": "Windows 7",
+      "edition": "Home Premium",
+      "bits": 32,
+      "url": "http://repo.furcode.co/Windows7/Home/X17-24208.iso",
+      "hash": "22df3e5a80f8dbf014c2776a01b1cd9f24d83233"
+    },
+    "windows 7 pro 64": {
+      "name": "Windows 7",
+      "edition": "Professional",
+      "bits": 64,
+      "url": "http://repo.furcode.co/Windows7/Professional/X17-24281.iso",
+      "hash": "5ed2584110e03f498db4458ba9fafd5a7ef602ed"
+    },
+    "windows 7 pro 32": {
+      "name": "Windows 7",
+      "edition": "Professional",
+      "bits": 32,
+      "url": "http://repo.furcode.co/Windows7/Professional/X17-24280.iso",
+      "hash": "917a542b0541054bb9c2a06a11a46aed6943856b"
+    },
+    "windows 8.1 core 64": {
+      "name": "Windows 8.1",
+      "edition": "Core",
+      "bits": 64,
+      "url": "http://repo.furcode.co/Windows8.1/Core/IR3_CCOA_X64FRER_EN-US_DV9.iso",
+      "hash": "70ec47fab7893767b29722a5668140fa92ee91a3"
+    },
+    "windows 8.1 core 32": {
+      "name": "Windows 8.1",
+      "edition": "Core",
+      "bits": 32,
+      "url": "http://repo.furcode.co/Windows8.1/Core/IR3_CCOA_X86FRER_EN-US_DV9.iso",
+      "hash": "9993094fc316fdea2447f81b3c8e7f76f6da8c66"
+    },
+    "windows 8.1 pro 64": {
+      "name": "Windows 8.1",
+      "edition": "Pro",
+      "bits": 64,
+      "url": "http://repo.furcode.co/Windows8.1/Pro/IR3_CPRA_X64FRER_EN-US_DV9.iso",
+      "hash": "0468385ee0c397cf5bfcd5e6a96cfe965074560a"
+    },
+    "windows 8.1 pro 32": {
+      "name": "Windows 8.1",
+      "edition": "Pro",
+      "bits": 32,
+      "url": "http://repo.furcode.co/Windows8.1/Pro/IR3_CPRA_X86FRER_EN-US_DV9.iso",
+      "hash": "e88d1d3cc50dd953eeb0bf5951da8644b6440193"
+    },
+    "windows vista home 64": {
+      "name": "Windows Vista",
+      "edition": "AIO (All Editions)",
+      "bits": 64,
+      "url": "http://repo.furcode.co/WindowsVista/LRMCFRE_EN_DVD_64.iso",
+      "hash": "083956b549886cbd1d83d03bd7b15c8f84e8f334"
+    },
+    "windows vista home 32": {
+      "name": "Windows Vista",
+      "edition": "AIO (All Editions)",
+      "bits": 32,
+      "url": "http://repo.furcode.co/WindowsVista/LRMCFRE_EN_DVD.iso",
+      "hash": "b71e04564ca22e4d9928e59298eff87cf62b382b"
+    },
+    "windows xp pro 64": {
+      "name": "Windows XP",
+      "edition": "Professional",
+      "bits": 64,
+      "url": "http://repo.furcode.co/WindowsXP/Professional-SP2/CRMPXOEM_EN.ISO",
+      "hash": "da414d53d2ed40a7e6376d981203c49cc949ad24"
+    },
+    "windows xp pro 32": {
+      "name": "Windows XP",
+      "edition": "Professional",
+      "bits": 32,
+      "url": "http://repo.furcode.co/WindowsXP/Professional-SP2/VX2POEM_EN.iso",
+      "hash": "d2a5f51504592e2f384d1066be40ec8c215f5dd9"
+    }
+  }
+}

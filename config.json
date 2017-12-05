@@ -1,0 +1,112 @@
+{
+    "api_keys": {
+        "bing_azure": "",
+        "google_cse_id": "",
+        "google_dev_key": "",
+        "googletranslate": "",
+        "lastfm": "",
+        "rdio_key": "",
+        "rdio_secret": "",
+        "rottentomatoes": "",
+        "soundcloud": "",
+        "tvdb": "",
+        "twitter_access_secret": "",
+        "twitter_access_token": "",
+        "twitter_consumer_key": "",
+        "twitter_consumer_secret": "",
+        "wolframalpha": "",
+        "wunderground": ""
+    },
+    "connections": [
+        {
+            "acls": {},
+            "channels": [
+                ""
+            ],
+            "command_prefix": ".",
+            "connection": {
+                "ignore_cert": true,
+                "password": "",
+                "port": 6667,
+                "server": "",
+                "ssl": false
+            },
+            "disabled_commands": [],
+            "name": "",
+            "nick": "",
+            "nickserv": {
+                "enabled": false,
+                "nickserv_command": "IDENTIFY",
+                "nickserv_name": "nickserv",
+                "nickserv_password": "",
+                "nickserv_user": ""
+            },
+            "permissions": {
+                "admins": {
+                    "perms": [
+                        "addfactoid",
+                        "delfactoid",
+                        "ignore",
+                        "botcontrol",
+                        "plpaste",
+                        "permissions_users",
+                        "op"
+                    ],
+                    "users": [
+                        "",
+                        ""
+                    ]
+                },
+                "moderators": {
+                    "perms": [
+                        "addfactoid",
+                        "delfactoid",
+                        "ignore"
+                    ],
+                    "users": [
+                        "examplec!user@example.com"
+                    ]
+                },
+                "trusted": {
+                    "perms": [
+                        "addfactoid",
+                        "delfactoid"
+                    ],
+                    "users": [
+                        "exampled!user@example.com"
+                    ]
+                }
+            },
+            "plugins": {
+                "ignore": {
+                    "ignored": []
+                }
+            },
+            "real_name": "",
+            "user": ""
+        }
+    ],
+    "database": "sqlite:///cloudbot.db",
+    "developer_mode": {
+        "config_reloading": true,
+        "console_debug": false,
+        "file_debug": true,
+        "plugin_reloading": false
+    },
+    "logging": {
+        "raw_file_log": false,
+        "show_motd": true,
+        "show_plugin_loading": true,
+        "show_server_info": true
+    },
+    "modular": {
+        "autolink": "ON"
+    },
+    "plugin_loading": {
+        "blacklist": [
+            "update"
+        ],
+        "use_whitelist": false,
+        "whitelist": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "issues": {
+    "nvidia": "Some NVIDIA cards (GTX 980, etc) are currently unsupported in Windows 10. Please check for an update later on when your GPU is supported.",
+    "ati": "Some ATI Graphics cards are currently unsupported in Windows 10. Please check for an update later on when your GPU is supported.",
+    "transfer": "You cannot transfer a copy of Windows 10 to another machine. It is tied to your hardware, and new devices must be activated with a new copy.",
+    "nogwx": "Microsoft is rolling the Windows 10 upgrade. If you do not have an icon yet, you can download an ISO from https://www.microsoft.com/en-us/software-download/windows10ISO",
+    "vista": "Upgrading from Windows Vista is not supported, you must buy a copy of Windows 10.",
+    "downgrade": "You cannot downgrade onto a clean copy of Windows 7/8 after activating with 10. You must either restore from Windows.old, or clean install 10.",
+    "telemetry": "Core users cannot disable Telemetry, if you're on Pro or Enterprise, you can reduce the amount of data collected by following http://redd.it/3f38ed",
+    "updates": "Core users cannot disable feature updates, if you're on Pro or Enterprise, you can limit feature updates using delays. You cannot disable security updates in Core or Pro.",
+    "getkey": "Windows 10 does not use keys for activation, you cannot recover an unique key. Activation instead is tied to your hardware via hardware hash.",
+    "drivers": "Note that not all hardware, accessories, and/or devices currently support Windows 10, or they may have bugs that prevent them from working. Outside of compatibility mode, you must wait for the manufacturer to address the issue.",
+    "bugs": "Early Windows 10 will generally have bugs, and these are expected until Microsoft rectifies them.",
+    "upgrades": "Please note that upgrading to Windows 10 is not currently recommended due to the lack of support, bugs, and forced user data collection. It's recommended that you wait a week or two until these issues can be resolved."
+  }
+}
