@@ -92,6 +92,23 @@ def potato(text, action):
     action("{} a {} {} {} potato for {} and serves it with a small {}!".format(method, flavor, size, potato_type, user,
                                                                                side_dish))
 
+@asyncio.coroutine
+@hook.command
+def boop(text, action):
+    """<user> - gives <user> an awesome boop"""
+    user = text.strip()
+
+    if not is_valid(user):
+        return "I can't boop that user."
+
+#    cake_type = random.choice(boops)
+    size = random.choice(['small', 'little', 'mid-sized', 'medium-sized', 'large', 'gigantic'])
+    flavor = random.choice(['soft', 'hard', 'violent', 'erotic', 'tedious', 'romantic', 'quick'])
+    method = random.choice(['drops', 'gives', 'pops', 'buys'])
+    side_dish = random.choice(['beer', 'pteradactyl porn', 'shot of whiskey', 'small dinosaur', 'lamborgini', 'philosophy book', 'box of laptops', 'bag of drugs', 'small some chocolate sauce', 'pizza', 'cup of coffee', 'warm bed'])
+    other_thing = random.choice(['gives', 'hands', 'buys', 'sells'])
+    action("{} {} a {} {} boop and {} them a {}!".format(method, user, flavor, size, other_thing,
+                                                                         side_dish))
 
 @asyncio.coroutine
 @hook.command

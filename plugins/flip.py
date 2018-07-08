@@ -44,7 +44,7 @@ replacements = {
 replacements.update(dict((v, k) for k, v in replacements.items()))
 
 flippers = ["( ﾉ⊙︵⊙）ﾉ", "(╯°□°）╯", "( ﾉ♉︵♉ ）ﾉ"]
-
+disapprovals = ["ಠ_ಠ", "༼ ಠل͟ಠ༽", "ಠ‿ಠ", "⊙︿⊙", "ಠᴥಠ", "ಠ⌣ಠ", "ಠ▄ಠ", "┌∩┐(ಠ_ಠ)┌∩┐", "ᕕ(ಠ_ಠ)ᕗ", "(ಠ,,,ಠ)", "ಠ෴ಠ"]
 
 @hook.command
 def flip(text, reply):
@@ -59,3 +59,10 @@ def table(text, message):
         message(random.choice(flippers) + " ︵ " + formatting.multi_replace(text[::-1].lower(), replacements))
     else:
         message(random.choice(flippers) + " ︵ ┻━┻")
+
+@hook.command(autohelp=False)
+def disapprove(text, message):
+    if text:
+        message(random.choice(disapprovals) + " I DISAPPROVE, " + text + "!")
+    else:
+	    message(random.choice(disapprovals) + " I DISAPPROVE!")		
